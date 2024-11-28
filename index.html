@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>Overdose</title>
+</head>
+<body>
+    <main>
+        <div class="passo" id="passo-m">
+            <p>Tentar de novo ?</p>
+            <button class="btn-proximo" data-proximo="0">sim</button>
+        </div>
+        <div class="passo ativo" id="passo-0">
+            <img src="download.jpeg" alt="">
+            <p>Você é um detetive que recebe um convite para uma mansão isolada onde um famoso colecionador de arte foi encontrado morto. Cada cômodo da mansão tem um enigma diferente, e você precisa resolver esses enigmas para descobrir quem é o assassino. A cada escolha, você pode seguir pistas, interrogar suspeitos, ou explorar novos locais. O objetivo final é revelar o mistério por trás da morte e encontrar o verdadeiro culpado. O que você vai fazer primeiro: explorar a biblioteca ou interrogar a esposa do colecionador ?</p>
+            <button class="btn-proximo" data-proximo="1">interrogar a esposa</button>
+            <button class="btn-proximo" data-proximo="2">explorar a biblioteca</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide interrogar a esposa do colecionador. Ela parece nervosa e hesitante, mas responde suas perguntas. No entanto, ao fazer uma pergunta sobre um item específico da coleção, ela fica visivelmente desconfortável e tenta evitar o assunto. De repente, um alarme silencioso é ativado. A esposa revela que foi uma armadilha: ela havia planejado sua morte para que parecesse um acidente e usou o alarme para chamar um cúmplice. A mansão é trancada e a polícia chega tarde demais. A esposa e seu cúmplice desaparecem, deixando você preso dentro da mansão com o caso não resolvido. O jogo termina com o mistério não resolvido e a sensação de uma trama muito mais sombria do que parecia inicialmente. Game over.</p>
+            <button class="btn-proximo" data-proximo="m">...</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="download1.jpeg" alt="">
+            <p>Na biblioteca, você encontra uma estante secreta com livros raros e uma mesa com uma carta parcialmente queimada. Ao investigar os livros, descobre uma série de anotações que parecem codificadas. A carta revela uma pista sobre uma "chave escondida". Você decide: decifrar as anotações, examinar a carta mais detalhadamente, ou procurar a chave na biblioteca?</p>
+            <button class="btn-proximo" data-proximo="3">examinar a carta</button>
+            <button class="btn-proximo" data-proximo="4">decifrar as anotações</button>
+            <button class="btn-proximo" data-proximo="5">procurar chave</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="images.png" alt="">
+            <p>A carta parcialmente queimada menciona uma "chave escondida onde os livros falam." Você percebe que a estante tem um espaço vazio que parece fora do lugar. Ao investigar, encontra um livro com uma capa diferente. Quando o retira, um compartimento secreto se revela, contendo uma chave antiga e uma nota com símbolos enigmáticos. Agora, você pode: usar a chave em um local da mansão que você conhece, ou continuar explorando a biblioteca ?</p>
+            <button class="btn-proximo" data-proximo="6">continuar explorando</button>
+            <button class="btn-proximo" data-proximo="7">usar a chave</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide decifrar os símbolos da nota. Após um esforço intenso, descobre que eles indicam um ritual oculto para esconder evidências. No entanto, ao tentar usar o conhecimento obtido, você acidentalmente ativa uma armadilha que aciona um mecanismo de bloqueio na biblioteca. A sala se tranca e você fica preso, com um sistema de segurança automaticamente enviando uma notificação de emergência. A polícia encontra você dentro da biblioteca, mas o mistério permanece sem solução, e você é confundido como um intruso. O caso nunca é resolvido e sua investigação termina em frustração. Game over.</p>
+            <button class="btn-proximo" data-proximo="m">...</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você decide procurar a chave na biblioteca. Enquanto vasculha os cantos e examina cada detalhe, encontra uma pequena gaveta oculta em uma mesa. Dentro, há uma série de papéis antigos com anotações sobre um código secreto usado pelo colecionador. Enquanto tenta decifrar o código, percebe que a gaveta tem um dispositivo de segurança escondido que é ativado ao mexer nela. As luzes da biblioteca piscam e um alarme silencioso começa a tocar. Em questão de minutos, seguranças entram na sala, tendo sido alertados pela ativação do dispositivo. Você é rapidamente detido e a mansão é trancada. Sem conseguir provar suas intenções, você se torna um suspeito principal no caso, e a investigação é interrompida. O mistério não é resolvido, e você é acusado de tentativa de invasão. Game over.</p>
+            <button class="btn-proximo" data-proximo="m">...</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="download2.jpeg" alt="">
+            <p>Você decide continuar explorando a biblioteca. Enquanto examina mais detalhes dos livros e das estantes, encontra uma pequena porta oculta atrás de uma fileira de volumes empoeirados. A porta está trancada, mas parece ter uma fechadura que poderia ser compatível com a chave antiga que você encontrou. Ao lado da porta, há uma coleção de livros sobre ocultismo e simbolismo, que podem conter pistas sobre os símbolos da nota que você encontrou. Você pode: usar a chave para abrir a porta oculta, estudar os livros sobre ocultismo, ou procurar mais pistas na biblioteca. O que você faz a seguir?</p>
+            <button class="btn-proximo" data-proximo="8">estudar os livros</button>
+            <button class="btn-proximo" data-proximo="9">procurar mais pistas</button>
+            <button class="btn-proximo" data-proximo="7">usar a chave</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você decide usar a chave na porta oculta. A porta se abre com um rangido, revelando uma sala escura e empoeirada cheia de móveis cobertos por lençóis. No centro, há uma mesa com um grande cofre antigo. Enquanto tenta abrir o cofre, um mecanismo de segurança é acionado. O alarme de emergência da mansão dispara, e as luzes se apagam. Uma voz gravada avisa que a sala está agora em lockdown e a segurança foi acionada. Os seguranças chegam e rapidamente o cercam. Você é acusado de invasão e tentativa de roubo. A polícia é chamada, e o caso é encerrado sem solução, com você sendo marcado como um suspeito. Game over.</p>
+            <button class="btn-proximo" data-proximo="m">...</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Ao estudar os livros sobre ocultismo, você descobre que os símbolos da nota correspondem a um ritual antigo de proteção. Uma das páginas revela que a chave encontrada é usada para desbloquear um compartimento secreto onde verdades ocultas são reveladas. Voltando à biblioteca, você usa a chave na porta oculta. Ela se abre, revelando uma sala secreta com uma única caixa de vidro contendo um pergaminho. O pergaminho detalha um plano de chantagem que o colecionador estava usando para extorquir dinheiro de seus contatos. Com essas provas, você confronta os suspeitos na mansão e descobre que o verdadeiro assassino é um dos cúmplices do colecionador, que não suportava mais ser manipulado. Com o caso resolvido, a justiça é feita, e o mistério da mansão é finalmente desvendado.</p>
+            <button class="btn-proximo" data-proximo="90">Fim</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você tenta procurara algo na biblioteca, porém, não acha nada...</p>
+            <button class="btn-proximo" data-proximo="7">usar a chave</button>
+            <button class="btn-proximo" data-proximo="8">estudar os livros</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
